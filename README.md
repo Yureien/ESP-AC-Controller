@@ -2,6 +2,8 @@
 
 **NOTE:** This is a personal project made for myself for my AC's model (Hitachi R-LT0541-HTA). If you have the same AC, feel free to use this code, otherwise you might have to customize it for your needs.
 
+Replace the Sinric keys and WiFi SSID/password before using this.
+
 ## Hardware
 
 ### Components
@@ -23,4 +25,4 @@ Hook up the IR LED to GPIO pin 4 (for ESP32, check available for other ESP versi
 ## Credits
 
 1. [esp8266-AC-control](https://github.com/mariusmotea/esp8266-AC-control) for the web UI
-2. 
+2. [IRRemote8266](https://github.com/crankyoldgit/IRremoteESP8266) for providing the protocol for my AC and saving a lot of time
